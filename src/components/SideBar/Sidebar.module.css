@@ -1,0 +1,21 @@
+.title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #df4646;
+}
+
+.sidebar {
+  max-width: 275px;
+  padding: 25px;
+  background: #080000;
+}
+
+.photo {
+  border-radius: 5%;
+}
+
+.section {
+  margin-top: 50px;
+}

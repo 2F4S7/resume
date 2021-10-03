@@ -1,0 +1,14 @@
+[
+  {
+    "id": "id-1",
+    "label": "Ice Cream (Team Lider)",
+    "link": "https://github.com/2F4S7/goit-ice-cream",
+    "tech": "HTML5, CSS3"
+  },
+  {
+    "id": "id-3",
+    "label": "Event Booster",
+    "link": "https://andrii-telishko.github.io/event-boostert-team-project/",
+    "tech": "JavaScript, HTML5, CSS3"
+  }
+]

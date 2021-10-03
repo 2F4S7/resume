@@ -1,0 +1,47 @@
+:root {
+  --primaryTextColor: #595959;
+  --secondaryTextColor: #a8a8a8;
+  --accentColor: #ff6b08;
+  --boxShadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  --timingFn: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f5f7fa;
+  padding: 40px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

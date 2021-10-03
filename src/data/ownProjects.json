@@ -1,0 +1,32 @@
+[
+  {
+    "id": "id-1",
+    "label": "Web Studio",
+    "link": "https://2f4s7.github.io/Web-Studio/",
+    "tech": "HTML5, CSS3"
+  },
+  {
+    "id": "id-2",
+    "label": "Barbershop",
+    "link": "https://2f4s7.github.io/Barbershop-01",
+    "tech": "HTML5, CSS3"
+  },
+  {
+    "id": "id-3",
+    "label": "Image Finder",
+    "link": "https://2f4s7.github.io/React-Image-Finder/",
+    "tech": "React"
+  },
+  {
+    "id": "id-4",
+    "label": "Movies",
+    "link": "",
+    "tech": "React"
+  },
+  {
+    "id": "id-5",
+    "label": "Phonebook",
+    "link": "https://telbook4u.netlify.app",
+    "tech": "React"
+  }
+]
