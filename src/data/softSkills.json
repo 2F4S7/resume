@@ -1,14 +1,34 @@
 [
   {
     "id": "id-1",
-    "label": "Team Lider"
-  },
-  {
-    "id": "id-4",
-    "label": "Teamwork"
+    "label": "Leadership"
   },
   {
     "id": "id-2",
-    "label": "Agile"
+    "label": "Teamwork"
+  },
+  {
+    "id": "id-3",
+    "label": "Time management"
+  },
+  {
+    "id": "id-4",
+    "label": "Problem-solving"
+  },
+  {
+    "id": "id-5",
+    "label": "Organization"
+  },
+  {
+    "id": "id-6",
+    "label": "Creativity"
+  },
+  {
+    "id": "id-7",
+    "label": "Attentiveness"
+  },
+  {
+    "id": "id-8",
+    "label": "Willingness to learn"
   }
 ]

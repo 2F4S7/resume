@@ -1,0 +1,14 @@
+[
+  {
+    "id": "id-1",
+    "university": "Kiev University of Market Relations",
+    "label": "Banking | Bachelor degree",
+    "time": "2008-2012"
+  },
+  {
+    "id": "id-2",
+    "university": "Additional education:",
+    "label": "GoIT Academy FullStack developer",
+    "time": "2020-2021"
+  }
+]

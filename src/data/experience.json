@@ -1,1 +1,24 @@
-[]
+[
+    {
+        "id": "id-1",
+        "company": "Victoria Film Studios",
+        "profession": "Sound engineer",
+        "link": "https://www.victoriafilmstudios.com/",
+        "country": "Ukraine",
+        "duties": [
+            {
+                "id": "1",
+                "duty": "Participated in the filming (films, TV series, clips): PES, Secret Doors, Tank, Forbidden Love, Witch."
+            },
+            {
+                "id": "2",
+                "duty": "Was also responsible for managing the recording department on the road."
+            },
+            {
+                "id": "3",
+                "duty": "Experienced in setting up audio equipment like sound device Pix 240i - Pix 260, Pioner mixers 600 - 900, mics Sennheiser, RODE and Lectrosonic (Synchronization of video recording + sound)."
+            }
+        ],
+        "time": "Septermber 2015 - March 2020"
+    }
+]

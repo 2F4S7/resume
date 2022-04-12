@@ -1,68 +1,96 @@
 import Projects from '../Projects';
-// import Experience from '../Experience';
-import VictoriaFilm from '../VictoriaFilm';
-import GoIT from '../GoIT';
-import Education from '../Education';
 import PropTypes from 'prop-types';
+import Experience from '../Experience';
+import Education from '../Education';
+import Summary from '../Summary';
 import s from './AboutMe.module.css';
 
-function AboutMe({ commandProjects, ownProjects, experience }) {
+function AboutMe({ commandProjects, ownProjects, education, experience }) {
   return (
     <div className={s.container}>
       <div className={s.section}>
-        <h2 className={s.profession}>Fullstack Developer</h2>
-        <h1 className={s.name}>Mikhail Prytychenko</h1>
-        <p className={s.description}>
-          I’m looking for interesting job as front-end developer in friendly,
-          thriving, and exciting company to develop my skills as well as grove
-          with a team.
-        </p>
+        <h1 className={s.name}>MIKHAIL PRYTYCHENKO</h1>
+        <div className={s.section}>
+          <h2 className={s.profession}>JUNIOR FRONT-END DEVELOPER</h2>
+        </div>
+        <div className={s.section}>
+          <h3 className={s.title}>Summary</h3>
+          <p className={s.description}>
+            I am a Junior Front-end Developer and looking for an interesting job
+            in a friendly, thriving, and exciting company to develop my skills
+            as well as grove with а team. I am good at HTML, CSS, JavaScript and
+            React. Also, I acted as Team Lead in a Webpack command project. I
+            have experience with code versioning tools (such as Git), in
+            creating а REST API. I am responsible, attentive, fast learner and
+            creative in approach of problem solving.
+          </p>
+        </div>
       </div>
       <div className={s.section}>
-        <h3 className={s.title}>Projects</h3>
+        <h3 className={s.title}>Project experience:</h3>
+
         <h4 className={s.subTitle}>
-          <span className={s.typeProject}>Command</span> projects
+          <span className={s.typeProject}>Command projects:</span>
         </h4>
+
         <ol>
-          {commandProjects.map(({ id, label, link, tech }) => (
-            <Projects key={id} label={label} link={link} tech={tech} />
+          {commandProjects.map(({ id, label, link, tech, text }) => (
+            <Projects
+              key={id}
+              label={label}
+              link={link}
+              tech={tech}
+              text={text}
+            />
           ))}
         </ol>
+
         <h4 className={s.subTitle}>
-          <span className={s.typeProject}>Own</span> projects
+          <span className={s.typeProject}>Personal projects:</span>
         </h4>
+
         <ol>
-          {ownProjects.map(({ id, label, link, tech }) => (
-            <Projects key={id} label={label} link={link} tech={tech} />
+          {ownProjects.map(({ id, label, link, tech, text }) => (
+            <Projects
+              key={id}
+              label={label}
+              link={link}
+              tech={tech}
+              text={text}
+            />
           ))}
         </ol>
       </div>
       <div className={s.section}>
         <h3 className={s.title}>Work Experience</h3>
         <ul>
-          <li>
-            <GoIT />
-          </li>
-          {/* {experience.map(
-            ({ id, profession, company, time, country, duties }) => (
+          {experience.map(
+            ({ id, company, profession, time, country, duties }) => (
               <Experience
                 key={id}
-                profession={profession}
                 company={company}
+                profession={profession}
                 time={time}
                 country={country}
                 duties={duties}
               />
             ),
-          )} */}
-          <li>
-            <VictoriaFilm />
-          </li>
+          )}
         </ul>
       </div>
       <div className={s.section}>
         <h3 className={s.title}>Education</h3>
-        <Education />
+        <ul>
+          {education.map(({ id, university, label, time, experience }) => (
+            <Education
+              key={id}
+              university={university}
+              label={label}
+              time={time}
+              experience={experience}
+            />
+          ))}
+        </ul>
       </div>
     </div>
   );

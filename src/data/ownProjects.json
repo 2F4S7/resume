@@ -1,32 +1,30 @@
 [
   {
     "id": "id-1",
-    "label": "Web Studio",
-    "link": "https://2f4s7.github.io/Web-Studio/",
-    "tech": "HTML5, CSS3"
+    "label": "Web Studio - ",
+    "link": "https://github.com/2F4S7/Web-Studio",
+    "tech": "",
+    "text": "Used technologies: НТМL5, SASS. Project for Development company company site."
   },
   {
     "id": "id-2",
-    "label": "Barbershop",
-    "link": "https://2f4s7.github.io/Barbershop-01",
-    "tech": "HTML5, CSS3"
+    "label": "L2C4W - ",
+    "link": "https://github.com/2F4S7/L2C4W",
+    "tech": "",
+    "text": "Used technologies: JavaScript, НТМL5, CSS3. Wikibase for Lineage 2 MMO RPG."
   },
   {
     "id": "id-3",
-    "label": "Image Finder",
-    "link": "https://2f4s7.github.io/React-Image-Finder/",
-    "tech": "React"
+    "label": "Movies - ",
+    "link": "https://github.com/2F4S7/goit-react-hw-04-movies",
+    "tech": "",
+    "text": "Used technologies: React, REST API. Auto update project for movies with data and overview."
   },
   {
     "id": "id-4",
-    "label": "Movies",
-    "link": "",
-    "tech": "React"
-  },
-  {
-    "id": "id-5",
-    "label": "Phonebook",
-    "link": "https://telbook4u.netlify.app",
-    "tech": "React"
+    "label": "Phonebook - ",
+    "link": "https://github.com/2F4S7/goit-react-hw-08-phonebook",
+    "tech": "",
+    "text": "Used technologies: React. Project for phonebook application."
   }
 ]

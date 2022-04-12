@@ -1,7 +1,8 @@
 .item {
   margin-left: 17px;
-
+  list-style: none;
   font-weight: 700;
+  padding-left: 0;
 }
 
 .flex {
@@ -12,13 +13,11 @@
 
 .link {
   margin-right: 5px;
-  width: 50%;
   overflow: hidden;
   white-space: nowrap;
 
-  color: var(--primaryTextColor);
-  font-size: 14px;
-  font-weight: 400;
+  color: #282727;
+  font-size: 16px;
   line-height: 24px;
 
   transition: color 250ms var(--timingFn);
@@ -26,7 +25,6 @@
 
 .link:after {
   margin-left: 5px;
-  content: '..............................................................................................................................';
 }
 
 .link:hover,
@@ -35,8 +33,15 @@
 }
 
 .name {
-  color: var(--primaryTextColor);
-  font-size: 14px;
-  font-weight: 400;
+  color: #282727;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.text {
+  color: #282727;
+  font-size: 13px;
+  font-weight: 700;
   line-height: 24px;
 }

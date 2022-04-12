@@ -1,37 +1,24 @@
 [
   {
     "id": "id-1",
-    "label": "Phone",
-    "icon": "https://img.icons8.com/cute-clipart/64/000000/phone.png",
-    "link": "063-877-05-33",
-    "text": "063-877-05-33"
-  },
-  {
-    "id": "id-2",
-    "label": "E-mail",
-    "icon": "https://img.icons8.com/cute-clipart/64/000000/email.png",
-    "link": "mikhailprytychenko@gmail.com",
     "text": "mikhailprytychenko@gmail.com"
   },
   {
+    "id": "id-2",
+    "text": "+38 063 877 0533"
+  },
+  {
     "id": "id-3",
-    "label": "Git Hub",
-    "icon": "https://img.icons8.com/cute-clipart/64/000000/github.png",
+    "link": "https://www.linkedin.com/in/mikhail-prytychenko-b4b507207",
+    "text": "LinkedIn"
+  },
+  {
+    "id": "id-4",
     "link": "https://github.com/2F4S7",
     "text": "GitHub"
   },
   {
-    "id": "id-4",
-    "label": "LinkedIn",
-    "icon": "https://img.icons8.com/cute-clipart/64/000000/linkedin.png",
-    "link": "#",
-    "text": "LinkedIn"
-  },
-  {
     "id": "id-5",
-    "label": "Telegram",
-    "icon": "https://img.icons8.com/cute-clipart/64/000000/telegram-app.png",
-    "link": "#",
-    "text": "Telegram"
+    "text": "Kyiv, Ukraine"
   }
 ]

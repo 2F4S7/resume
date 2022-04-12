@@ -1,42 +1,46 @@
 [
   {
     "id": "id-1",
-    "label": "HTML5"
+    "label": "HTML5/CSS3/SASS"
   },
   {
     "id": "id-2",
-    "label": "CSS3"
+    "label": "Responsive/Adaptive design"
   },
   {
     "id": "id-3",
-    "label": "Sass"
-  },
-  {
-    "id": "id-4",
     "label": "GIT"
   },
   {
-    "id": "id-5",
+    "id": "id-4",
     "label": "JavaScript"
   },
   {
-    "id": "id-6",
-    "label": "React.js"
+    "id": "id-5",
+    "label": "React"
   },
   {
-    "id": "id-7",
+    "id": "id-6",
     "label": "Redux"
   },
   {
+    "id": "id-7",
+    "label": "REST API"
+  },
+  {
     "id": "id-8",
-    "label": "Node.js"
+    "label": "Handlebars"
   },
   {
     "id": "id-9",
-    "label": "Mangoos.js"
+    "label": "Webpack"
   },
   {
     "id": "id-10",
-    "label": "Figma"
+    "label": "Parcel"
+  },
+  {
+    "id": "id-11",
+    "label": "GULP"
   }
 ]

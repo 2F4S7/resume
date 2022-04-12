@@ -1,14 +1,16 @@
 [
   {
     "id": "id-1",
-    "label": "Ice Cream (Team Lider)",
+    "label": "Ice Cream (Team Lead) - ",
     "link": "https://github.com/2F4S7/goit-ice-cream",
-    "tech": "HTML5, CSS3"
+    "tech": "Used technologies: Parcel; НТМL5, CSS3, SASS; JavaScript",
+    "text": "Project for Ice Cream production company site."
   },
   {
-    "id": "id-3",
-    "label": "Event Booster",
-    "link": "https://andrii-telishko.github.io/event-boostert-team-project/",
-    "tech": "JavaScript, HTML5, CSS3"
+    "id": "id-2",
+    "label": "Event Booster - ",
+    "link": "https://github.com/andrii-telishko/event-boostert-team-project",
+    "tech": "Used technologies: JavaScript, HTML5, CSS3, REST API",
+    "text": "Project for ticket sales on best events around the world."
   }
 ]

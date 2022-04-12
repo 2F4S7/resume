@@ -1,4 +1,6 @@
 .container {
+  width: 299em;
+  min-width: 370px;
   padding: 90px;
 }
 
@@ -7,9 +9,11 @@
 }
 
 .profession {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 24px;
+  line-height: 1.2;
+  color: var(--accentColor);
+  text-transform: uppercase;
 }
 
 .name {
@@ -19,8 +23,8 @@
 }
 
 .description {
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 13px;
+  font-weight: 700;
   line-height: 24px;
 }
 

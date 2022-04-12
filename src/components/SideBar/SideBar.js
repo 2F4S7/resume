@@ -1,32 +1,17 @@
 import Contacts from '../Contacts';
 import TechSkills from '../TechSkills';
+import LanguagesContainer from '../LanguagesContainer';
 import SoftSkills from '../SoftSkills';
 import PropTypes from 'prop-types';
 import s from './Sidebar.module.css';
 import myPhoto from '../../img/photo_emodji.jpg';
 
-function Sidebar({ contacts, techSkills, softSkills }) {
+function Sidebar({ contacts, techSkills, softSkills, languagesContainer }) {
   return (
     <aside className={s.sidebar}>
       <img src={myPhoto} alt="Prytychenko Mikhail" className={s.photo} />
       <div className={s.section}>
-        <h3 className={s.title}>Soft Skills</h3>
-        <ul>
-          {softSkills.map(({ id, label }) => (
-            <SoftSkills key={id} label={label} />
-          ))}
-        </ul>
-      </div>
-      <div className={s.section}>
-        <h3 className={s.title}>Tech Skills</h3>
-        <ul>
-          {techSkills.map(({ id, label }) => (
-            <TechSkills key={id} label={label} />
-          ))}
-        </ul>
-      </div>
-      <div className={s.section}>
-        <h3 className={s.title}>Contacts</h3>
+        <h3 className={s.title}> Contacts</h3>
         <ul>
           {contacts.map(({ id, label, link, text, icon }) => (
             <Contacts
@@ -36,6 +21,33 @@ function Sidebar({ contacts, techSkills, softSkills }) {
               text={text}
               icon={icon}
             />
+          ))}
+        </ul>
+      </div>
+
+      <div className={s.section}>
+        <h3 className={s.title}>Tech Skills</h3>
+        <ul>
+          {techSkills.map(({ id, label }) => (
+            <TechSkills key={id} label={label} />
+          ))}
+        </ul>
+      </div>
+
+      <div className={s.section}>
+        <h3 className={s.title}>Soft Skills</h3>
+        <ul>
+          {softSkills.map(({ id, label }) => (
+            <SoftSkills key={id} label={label} />
+          ))}
+        </ul>
+      </div>
+
+      <div className={s.section}>
+        <h3 className={s.title}>Languages</h3>
+        <ul>
+          {languagesContainer.map(({ id, label }) => (
+            <LanguagesContainer key={id} label={label} />
           ))}
         </ul>
       </div>
